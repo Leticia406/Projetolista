@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5ebe0;
+  }
+  
+  .calc {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #result {
+    width: 93%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  #historico {
+    width: 300%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    background-color:hotpink;
+  }
+  
+  .contas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffafcc;
+  }
+  
+  button:active {
+    background-color: #ffc8dd;
+  }
